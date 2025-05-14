@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.titulo{
+    font-size: 32px; /* Tamaño grande */
+    font-family: Arial, Helvetica, sans-serif; /*Fuente limpia y legible*/
+    text-align: center;
+}
+
+.texto-color{
+    color: orangered; /*Naranja*/
+    background-color: #f0f0f0; /*Gris claro */
+    padding: 10px;
+}
+
+.estilo-estilizado {
+    font-style: italic; /*Cursiva*/
+    font-weight: bold; /*Negrita*/
+    text-transform: uppercase; /*Mayúscula*/
+}
+
+.alineacion{
+    text-align: justify; /*Texto justificado*/
+    line-height: 1.8; /*Espaciado entre línes*/
+    letter-spacing: 2px; /*Espaciado entre letras*/
+}
+
+
+
+.fuente-personalizada {
+    font-family: "Orbitron", sans-serif;
+  }
+
+.caja {
+    background-color: #f0f0f0; /*Gris Claro*/
+    padding: 20px; /*Agrega espacio interno*/
+    border: 1px solid #ccc; /*Border para mayor contraste*/
+    border-radius: 10px;
+}
+
+.fondo-imagen {
+    background-image: url('https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/04/23/15244907665271.jpg');
+    border-radius: 10px;
+    background-repeat: no-repeat; /*Evita que la imagen de fondo se repita en mosaico*/
+    background-size: cover;       /*Escala la imagen para que cubra todo el contenedor*/
+    background-position: center;  /*Centra la iagen de fondo horizontal y verticalmente*/
+    height: 100vh;                /*Establece la altura del contendeor al 100% del alto disponible*/
+    width: 100%;                  /*OCuap el 100% del ancho disponible*/
+    margin: 10px;                 
+    color: white;               
+    display: flex;                /*Activa el modelo de caja flexible para el contenido*/
+    flex-direction: column;       /*Organiza los elementos hijos en columna (de arriba hacia abajo)*/
+    justify-content: center;      /*Centra verticalmente el contenido del contenedor*/
+    align-items: center;          /*Centroa horizontalmente el contenido del contenedor*/
+    text-align: center;
+    font-size: 30px;
+}
+
+.fondo-combinado {
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

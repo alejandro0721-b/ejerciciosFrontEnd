@@ -1,0 +1,108 @@
+/* ESTILIZACIION DEL DIV */
+
+body{
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+ol{
+    border: 3px solid red;
+    border-radius: 15px;
+}
+
+
+
+#Cali {
+    width: 200px;
+    height: 100px;
+    margin: 20px; /* Espacio externo */
+    padding: 15px; /* Espacio interno */
+    border: 25px solid green;
+    background-color: rgba(77, 247, 10, 0.219);
+    border-radius: 20px;
+    text-align: center;
+}
+#Barca {
+    width: 200px;
+    height: 100px;
+    margin: 20px; /* Espacio externo */
+    padding: 15px; /* Espacio interno */
+    border: 25px solid rgb(15, 89, 228);
+    background-color: rgb(247, 38, 23);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#amarillo {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    padding: 50px; /* Espacio interno */
+    background-color: rgb(243, 228, 15);
+}
+
+#azul {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    padding: 50px; /* Espacio interno */
+    background-color: rgb(8, 119, 247);
+}
+
+#rojo{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    padding: 50px; /* Espacio interno */
+    background-color: rgb(247, 8, 8);
+}
+
+#real-vardrid {  
+    width: 200px;
+    height: 100px;
+    margin: 20px; /* Espacio externo */
+    padding: 15px; /* Espacio interno */
+    border: 25px solid rgb(15, 89, 228);
+    background-color: #ffff;
+    text-align: center;
+}
+
+#el-becino {
+    width: 200px;
+    height: 100px;
+    margin: 20px; /* Espacio externo */
+    padding: 15px; /* Espacio interno */
+    border: 25px solid rgb(252, 12, 12);
+    background-color: #ffff;
+    text-align: center;
+}
+
+div p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+div h5 {
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+#azul-div{ /* El #azul-div es un identificador especial para el h5 de titulo*/
+    color: black;
+}
+
+.texto-color {
+    
+}

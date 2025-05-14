@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #ddd;
+    
+}
